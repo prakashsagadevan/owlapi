@@ -60,6 +60,7 @@ org.semanticweb.owlapi.util
 org.semanticweb.owlapi.util.mansyntax
 org.semanticweb.owlapi.vocab
 org.semanticweb.owlapitools.builders
+uk.ac.manchester.cs
 uk.ac.manchester.cs.owl.explanation.ordering
 uk.ac.manchester.cs.owl.owlapi
 uk.ac.manchester.cs.owl.owlapi.concurrent

@@ -63,6 +63,7 @@ org.semanticweb.owlapi.util.mansyntax
 org.semanticweb.owlapi.vocab
 org.semanticweb.owlapitools.builders
 org.semanticweb.owlapitools.decomposition
+uk.ac.manchester.cs
 uk.ac.manchester.cs.atomicdecomposition
 uk.ac.manchester.cs.chainsaw
 uk.ac.manchester.cs.factplusplusad
