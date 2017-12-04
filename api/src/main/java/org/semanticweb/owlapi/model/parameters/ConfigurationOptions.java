@@ -95,9 +95,6 @@ public enum ConfigurationOptions {
     /** Entity expansion limit for 
      * XML parsing. */
     ENTITY_EXPANSION_LIMIT              ("100000000"),
-    /** True if http authorization 
-     * should be used. */
-    ACCEPT_HTTP_AUTHORIZATION             (Boolean.FALSE),
     /** Authorization
      * header Value. */
     AUTHORIZATION_VALUE                      ("");

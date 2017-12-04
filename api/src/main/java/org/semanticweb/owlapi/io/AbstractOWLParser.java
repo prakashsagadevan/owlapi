@@ -92,7 +92,7 @@ public abstract class AbstractOWLParser implements OWLParser, Serializable {
         URLConnection conn = originalURL.openConnection();
         conn.addRequestProperty("Accept", requestType);
         
-        if (config.isAcceptingAuthorization()) {
+        if (config.getAuthorizationValue() != null && !config.getAuthorizationValue().isEmpty()) {
             conn.setRequestProperty("Authorization", config.getAuthorizationValue());
         }
         
@@ -118,7 +118,7 @@ public abstract class AbstractOWLParser implements OWLParser, Serializable {
                     conn = newURL.openConnection();
                     conn.addRequestProperty("Accept", requestType);
 
-                    if (config.isAcceptingAuthorization()) {
+                    if (config.getAuthorizationValue() != null && !config.getAuthorizationValue().isEmpty()) {
                         conn.setRequestProperty("Authorization", config.getAuthorizationValue());
                     }
 
