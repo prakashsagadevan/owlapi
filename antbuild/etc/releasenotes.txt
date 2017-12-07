@@ -1,3 +1,8 @@
+4.2.9 7 Dec 2017
+Features:
+    Added authorization header option in OWL Ontology Loader #716 
+
+
 4.2.8 4 Jan 2017
 Bug fixes:
 Fix Structural sharing in GCIs causes errors #564
